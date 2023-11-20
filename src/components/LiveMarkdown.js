@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import SyntaxHighlighter from 'react-syntax-highlighter'
-import VisibilityIcon from '@material-ui/icons/Visibility'
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 export default function LiveMarkdown() {
   const [markdownInput, setMarkdownInput] = useState()
